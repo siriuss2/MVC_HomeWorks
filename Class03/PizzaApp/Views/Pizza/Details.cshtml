@@ -1,6 +1,6 @@
 ﻿@model PizzaViewModel
 
-<div class="card-container">
+<div class="singlePizzaDiv">
 
     <div class="card" style="width: 18rem;">
         <div class="card-body">
@@ -13,11 +13,13 @@
             {
                 <p class="card-text">Price : @Model.Price</p>
             }
-            Sizes:
-            @foreach (var size in Model.PizzaSizes)
-            {
-                <p>@size</p>
-            }
+            <div class="sizesDiv">
+                Sizes:
+                @foreach (var size in Model.PizzaSizes)
+                {
+                    <p>@size</p>
+                }
+            </div>
         </div>
         <br />
     </div>

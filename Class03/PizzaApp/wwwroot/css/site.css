@@ -1,27 +1,33 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     gap: 15px;
 }
 
-.pizzaSizesDiv{
-    /*margin-left: 100px;*/
+
+.singlePizzaDiv {
+    margin-left: 500px;
 }
+
+.sizesDiv {
+    margin-top: -15px;
+}
+
