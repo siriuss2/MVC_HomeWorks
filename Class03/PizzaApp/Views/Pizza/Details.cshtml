@@ -2,25 +2,6 @@
 
 <div class="singlePizzaDiv">
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Name : @Model.Name</h5>
-            @if (Model.HasExtras)
-            {
-                <p class="card-text">Price : @(Model.Price + 10)</p>
-            }
-            else
-            {
-                <p class="card-text">Price : @Model.Price</p>
-            }
-            <div class="sizesDiv">
-                Sizes:
-                @foreach (var size in Model.PizzaSizes)
-                {
-                    <p>@size</p>
-                }
-            </div>
-        </div>
-        <br />
-    </div>
+    <partial name="~/Views/Shared/Partials/_PizzaInfoPartial.cshtml" />
+
 </div>

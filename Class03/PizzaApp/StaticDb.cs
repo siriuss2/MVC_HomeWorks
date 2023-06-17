@@ -87,14 +87,16 @@ namespace PizzaApp
                 Id = 1,
                 FirstName = "Antonio",
                 LastName = "Novoselski",
-                PhoneNumber = "078417501"
+                PhoneNumber = "078417501",
+                Address = new Address("Mladinska" , "Skopje" , 10)
             },
             new User()
             {
                 Id = 2,
                 FirstName = "Kate",
                 LastName = "Kateski",
-                PhoneNumber = "078241294"
+                PhoneNumber = "078241294",
+                Address = new Address("Partizanska" , "Skopje" , 15)
             }
         };
 

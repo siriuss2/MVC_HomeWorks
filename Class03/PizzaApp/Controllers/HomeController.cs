@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PizzaApp.Models;
+using PizzaApp.Models.Domain;
+using PizzaApp.Models.Mappers;
+using PizzaApp.Models.ViewModels.HomeViewModels;
 using System.Diagnostics;
 
 namespace PizzaApp.Controllers
@@ -31,6 +34,13 @@ namespace PizzaApp.Controllers
         public IActionResult Contact()
         {
             return View();
+        }
+
+        public IActionResult SeeUsers()
+        {
+            List<User> users = StaticDb.Users;
+            List<ListAllUsersViewModel> usersDetails = users.Select(x => x.MapFromUserToListAllUsers()).ToList();
+            return View(usersDetails);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
