@@ -1,0 +1,12 @@
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\bin\Debug\net6.0\PizzaApp.Shared.deps.json
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\bin\Debug\net6.0\PizzaApp.Shared.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\bin\Debug\net6.0\PizzaApp.Shared.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.csproj.AssemblyReference.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.AssemblyInfo.cs
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\refint\PizzaApp.Shared.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\PizzaApp.Shared.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Shared\obj\Debug\net6.0\ref\PizzaApp.Shared.dll

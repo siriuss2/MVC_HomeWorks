@@ -1,0 +1,12 @@
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\bin\Debug\net6.0\PizzaApp.Mappers.deps.json
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\bin\Debug\net6.0\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\bin\Debug\net6.0\PizzaApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.csproj.AssemblyReference.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.AssemblyInfo.cs
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\refint\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\PizzaApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Mappers\obj\Debug\net6.0\ref\PizzaApp.Mappers.dll
