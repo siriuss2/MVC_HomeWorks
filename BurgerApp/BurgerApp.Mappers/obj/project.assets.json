@@ -11,16 +11,6 @@
         "runtime": {
           "bin/placeholder/BurgerApp.Domain.dll": {}
         }
-      },
-      "BurgerApp.ViewModels/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BurgerApp.ViewModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BurgerApp.ViewModels.dll": {}
-        }
       }
     }
   },
@@ -29,17 +19,11 @@
       "type": "project",
       "path": "../BurgerApp.Domain/BurgerApp.Domain.csproj",
       "msbuildProject": "../BurgerApp.Domain/BurgerApp.Domain.csproj"
-    },
-    "BurgerApp.ViewModels/1.0.0": {
-      "type": "project",
-      "path": "../PizzaApp.ViewModels/BurgerApp.ViewModels.csproj",
-      "msbuildProject": "../PizzaApp.ViewModels/BurgerApp.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BurgerApp.Domain >= 1.0.0",
-      "BurgerApp.ViewModels >= 1.0.0"
+      "BurgerApp.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -77,9 +61,6 @@
           "projectReferences": {
             "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Domain\\BurgerApp.Domain.csproj": {
               "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Domain\\BurgerApp.Domain.csproj"
-            },
-            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\BurgerApp.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\BurgerApp.ViewModels.csproj"
             }
           }
         }
