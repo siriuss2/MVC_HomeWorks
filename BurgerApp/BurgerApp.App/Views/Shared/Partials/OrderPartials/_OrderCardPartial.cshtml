@@ -1,0 +1,21 @@
+﻿@model OrderListViewModel
+
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+
+        <h5 class="card-title">@Model.FullName</h5>
+        <p class="card-text">@Model.Address</p>
+        @if (Model.IsDelivered)
+        {
+            <p class="text-success">Delivered</p>
+        }
+        else
+        {
+            <p class="text-danger">Not Delivered</p>
+        }
+
+    </div>
+    <br />
+</div>
+    

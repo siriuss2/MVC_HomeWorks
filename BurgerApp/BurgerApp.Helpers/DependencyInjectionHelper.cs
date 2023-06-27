@@ -17,14 +17,24 @@ namespace BurgerApp.Helpers
             options.UseSqlServer(@"Data Source=(localdb)\BurgerAppDb;Database=BurgerAppDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False"));
         }
 
-        public static void InjectRepositories(this IServiceCollection services)
+        public static void InjectRepositoriesBurger(this IServiceCollection services)
         {
             services.AddTransient<IRepository<Burger>, BurgerRepository>();
         }
 
-        public static void InjectServices(this IServiceCollection services)
+        public static void InjectServicesBurger(this IServiceCollection services)
         {
             services.AddTransient<IBurgerService, BurgerService>();
+        }
+
+        public static void InjectRepositoriesOrder(this IServiceCollection services)
+        {
+            services.AddTransient<IRepository<Order>, OrderRepository>();
+        }
+
+        public static void InjectServicesOrder(this IServiceCollection services)
+        {
+            services.AddTransient<IOrderService, OrderService>();
         }
     }
 }

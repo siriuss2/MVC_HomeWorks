@@ -1,12 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BurgerApp.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BurgerApp.App.Controllers
 {
     public class OrderController : Controller
     {
-        public IActionResult Index()
+        private IOrderService _orderService;
+
+        public OrderController(IOrderService _orderService)
         {
-            return View();
+            this._orderService = _orderService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            return View(await _orderService.GetAllOrders());
         }
     }
 }
