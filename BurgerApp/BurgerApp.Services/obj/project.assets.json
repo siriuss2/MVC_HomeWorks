@@ -1076,13 +1076,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "BurgerApp.Domain": "1.0.0"
+          "BurgerApp.Domain": "1.0.0",
+          "BurgerApp.ViewModels": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BurgerApp.Mappers.dll": {}
         },
         "runtime": {
           "bin/placeholder/BurgerApp.Mappers.dll": {}
+        }
+      },
+      "BurgerApp.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BurgerApp.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.ViewModels.dll": {}
         }
       }
     }
@@ -3268,12 +3279,18 @@
       "type": "project",
       "path": "../BurgerApp.Mappers/BurgerApp.Mappers.csproj",
       "msbuildProject": "../BurgerApp.Mappers/BurgerApp.Mappers.csproj"
+    },
+    "BurgerApp.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.ViewModels/BurgerApp.ViewModels.csproj",
+      "msbuildProject": "../BurgerApp.ViewModels/BurgerApp.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BurgerApp.DataAccess >= 1.0.0",
-      "BurgerApp.Mappers >= 1.0.0"
+      "BurgerApp.Mappers >= 1.0.0",
+      "BurgerApp.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3314,6 +3331,9 @@
             },
             "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Mappers\\BurgerApp.Mappers.csproj": {
               "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Mappers\\BurgerApp.Mappers.csproj"
+            },
+            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.ViewModels\\BurgerApp.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.ViewModels\\BurgerApp.ViewModels.csproj"
             }
           }
         }
