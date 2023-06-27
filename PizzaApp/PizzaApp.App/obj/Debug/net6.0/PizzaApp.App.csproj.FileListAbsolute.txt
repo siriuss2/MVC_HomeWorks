@@ -91,3 +91,9 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\ref
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\PizzaApp.App.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\PizzaApp.App.genruntimeconfig.cache
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\ref\PizzaApp.App.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.pdb

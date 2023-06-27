@@ -1071,6 +1071,45 @@
         "runtime": {
           "bin/placeholder/BurgerApp.Domain.dll": {}
         }
+      },
+      "BurgerApp.Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.Domain": "1.0.0",
+          "BurgerApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.Mappers.dll": {}
+        }
+      },
+      "BurgerApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BurgerApp.DataAccess": "1.0.0",
+          "BurgerApp.Mappers": "1.0.0",
+          "BurgerApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BurgerApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.Services.dll": {}
+        }
+      },
+      "BurgerApp.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BurgerApp.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BurgerApp.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -3250,11 +3289,27 @@
       "type": "project",
       "path": "../BurgerApp.Domain/BurgerApp.Domain.csproj",
       "msbuildProject": "../BurgerApp.Domain/BurgerApp.Domain.csproj"
+    },
+    "BurgerApp.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.Mappers/BurgerApp.Mappers.csproj",
+      "msbuildProject": "../BurgerApp.Mappers/BurgerApp.Mappers.csproj"
+    },
+    "BurgerApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../BurgerApp.Services/BurgerApp.Services.csproj",
+      "msbuildProject": "../BurgerApp.Services/BurgerApp.Services.csproj"
+    },
+    "BurgerApp.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.ViewModels/BurgerApp.ViewModels.csproj",
+      "msbuildProject": "../PizzaApp.ViewModels/BurgerApp.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "BurgerApp.DataAccess >= 1.0.0",
+      "BurgerApp.Services >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
     ]
   },
@@ -3293,6 +3348,9 @@
           "projectReferences": {
             "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.DataAccess\\BurgerApp.DataAccess.csproj": {
               "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.DataAccess\\BurgerApp.DataAccess.csproj"
+            },
+            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Services\\BurgerApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\BurgerApp.Services\\BurgerApp.Services.csproj"
             }
           }
         }

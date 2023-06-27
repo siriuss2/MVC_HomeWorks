@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BurgerApp.DataAccess\BurgerApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BurgerApp.Mappers\BurgerApp.Mappers.csproj" />
+    <ProjectReference Include="..\PizzaApp.ViewModels\BurgerApp.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

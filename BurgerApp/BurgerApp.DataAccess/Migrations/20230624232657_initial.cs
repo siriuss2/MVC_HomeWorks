@@ -60,17 +60,12 @@ namespace BurgerApp.DataAccess.Migrations
                     Price = table.Column<decimal>(type: "decimal(6,2)", nullable: false),
                     IsVegetarian = table.Column<bool>(type: "bit", nullable: false),
                     IsVegan = table.Column<bool>(type: "bit", nullable: false),
-                    HasFries = table.Column<bool>(type: "bit", nullable: false),
-                    OrderId = table.Column<int>(type: "int", nullable: true)
+                    HasFries = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Burgers", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Burgers_Orders_OrderId",
-                        column: x => x.OrderId,
-                        principalTable: "Orders",
-                        principalColumn: "Id");
+            
                 });
 
             migrationBuilder.CreateTable(

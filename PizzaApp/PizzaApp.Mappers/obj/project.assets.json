@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "PizzaApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PizzaApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApp.Domain.dll": {}
+        }
+      },
+      "PizzaApp.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PizzaApp.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApp.ViewModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PizzaApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.Domain/PizzaApp.Domain.csproj",
+      "msbuildProject": "../PizzaApp.Domain/PizzaApp.Domain.csproj"
+    },
+    "PizzaApp.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.ViewModels/PizzaApp.ViewModels.csproj",
+      "msbuildProject": "../PizzaApp.ViewModels/PizzaApp.ViewModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "PizzaApp.Domain >= 1.0.0",
+      "PizzaApp.ViewModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Dragan\\.nuget\\packages\\": {},
@@ -39,7 +74,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.Domain\\PizzaApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.Domain\\PizzaApp.Domain.csproj"
+            },
+            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.ViewModels\\PizzaApp.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.ViewModels\\PizzaApp.ViewModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

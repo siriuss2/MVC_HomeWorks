@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\PizzaApp.ViewModels.csproj",
-      "projectName": "PizzaApp.ViewModels",
-      "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\PizzaApp.ViewModels.csproj",
+      "projectUniqueName": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\BurgerApp.ViewModels.csproj",
+      "projectName": "BurgerApp.ViewModels",
+      "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\BurgerApp.ViewModels.csproj",
       "packagesPath": "C:\\Users\\Dragan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\BurgerApp\\PizzaApp.ViewModels\\obj\\",
       "projectStyle": "PackageReference",

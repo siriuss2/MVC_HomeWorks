@@ -1,12 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BurgerApp.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BurgerApp.App.Controllers
 {
     public class BurgerController : Controller
     {
-        public IActionResult Index()
+        private IBurgerService _burgerService;
+
+        public BurgerController(IBurgerService _burgerService)
         {
-            return View();
+            this._burgerService = _burgerService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            return View(await _burgerService.GetBurgersForCards());
         }
     }
 }

@@ -9,7 +9,9 @@
       "PizzaApp.App/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.7",
-          "PizzaApp.Helpers": "1.0.0"
+          "PizzaApp.DataAccess": "1.0.0",
+          "PizzaApp.Helpers": "1.0.0",
+          "PizzaApp.Services": "1.0.0"
         },
         "runtime": {
           "PizzaApp.App.dll": {}
@@ -711,10 +713,36 @@
       "PizzaApp.Helpers/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "PizzaApp.DataAccess": "1.0.0"
+          "PizzaApp.DataAccess": "1.0.0",
+          "PizzaApp.Services": "1.0.0"
         },
         "runtime": {
           "PizzaApp.Helpers.dll": {}
+        }
+      },
+      "PizzaApp.Mappers/1.0.0": {
+        "dependencies": {
+          "PizzaApp.Domain": "1.0.0",
+          "PizzaApp.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "PizzaApp.Mappers.dll": {}
+        }
+      },
+      "PizzaApp.Services/1.0.0": {
+        "dependencies": {
+          "PizzaApp.DataAccess": "1.0.0",
+          "PizzaApp.Domain": "1.0.0",
+          "PizzaApp.Mappers": "1.0.0",
+          "PizzaApp.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "PizzaApp.Services.dll": {}
+        }
+      },
+      "PizzaApp.ViewModels/1.0.0": {
+        "runtime": {
+          "PizzaApp.ViewModels.dll": {}
         }
       }
     }
@@ -1205,6 +1233,21 @@
       "sha512": ""
     },
     "PizzaApp.Helpers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzaApp.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzaApp.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PizzaApp.ViewModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

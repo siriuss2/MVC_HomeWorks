@@ -15,3 +15,9 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\obj\Debug\net6.0
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\obj\Debug\net6.0\refint\PizzaApp.Helpers.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\obj\Debug\net6.0\PizzaApp.Helpers.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\obj\Debug\net6.0\ref\PizzaApp.Helpers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.Services.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.ViewModels.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.Services.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.Helpers\bin\Debug\net6.0\PizzaApp.ViewModels.pdb

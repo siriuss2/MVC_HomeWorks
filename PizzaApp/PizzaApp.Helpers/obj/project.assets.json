@@ -1071,6 +1071,46 @@
         "runtime": {
           "bin/placeholder/PizzaApp.Domain.dll": {}
         }
+      },
+      "PizzaApp.Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PizzaApp.Domain": "1.0.0",
+          "PizzaApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaApp.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApp.Mappers.dll": {}
+        }
+      },
+      "PizzaApp.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PizzaApp.DataAccess": "1.0.0",
+          "PizzaApp.Domain": "1.0.0",
+          "PizzaApp.Mappers": "1.0.0",
+          "PizzaApp.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaApp.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApp.Services.dll": {}
+        }
+      },
+      "PizzaApp.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PizzaApp.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaApp.ViewModels.dll": {}
+        }
       }
     }
   },
@@ -3250,12 +3290,28 @@
       "type": "project",
       "path": "../PizzaApp.Domain/PizzaApp.Domain.csproj",
       "msbuildProject": "../PizzaApp.Domain/PizzaApp.Domain.csproj"
+    },
+    "PizzaApp.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.Mappers/PizzaApp.Mappers.csproj",
+      "msbuildProject": "../PizzaApp.Mappers/PizzaApp.Mappers.csproj"
+    },
+    "PizzaApp.Services/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.Services/PizzaApp.Services.csproj",
+      "msbuildProject": "../PizzaApp.Services/PizzaApp.Services.csproj"
+    },
+    "PizzaApp.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../PizzaApp.ViewModels/PizzaApp.ViewModels.csproj",
+      "msbuildProject": "../PizzaApp.ViewModels/PizzaApp.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
-      "PizzaApp.DataAccess >= 1.0.0"
+      "PizzaApp.DataAccess >= 1.0.0",
+      "PizzaApp.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3293,6 +3349,9 @@
           "projectReferences": {
             "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj": {
               "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.DataAccess\\PizzaApp.DataAccess.csproj"
+            },
+            "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.Services\\PizzaApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\PizzaApp\\PizzaApp.Services\\PizzaApp.Services.csproj"
             }
           }
         }

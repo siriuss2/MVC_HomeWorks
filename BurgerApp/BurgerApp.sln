@@ -11,13 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.Domain", "BurgerA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.Helpers", "BurgerApp.Helpers\BurgerApp.Helpers.csproj", "{EB3DACB6-B5C0-446A-A74C-08D2D3787FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Mappers", "BurgerApp.Mappers\BurgerApp.Mappers.csproj", "{AFCC2126-358C-47BA-B299-D3451823162C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.Mappers", "BurgerApp.Mappers\BurgerApp.Mappers.csproj", "{AFCC2126-358C-47BA-B299-D3451823162C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Services", "BurgerApp.Services\BurgerApp.Services.csproj", "{75DC2DF7-E21C-4203-908E-F92A8FFCC161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.Services", "BurgerApp.Services\BurgerApp.Services.csproj", "{75DC2DF7-E21C-4203-908E-F92A8FFCC161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerApp.Shared", "BurgerApp.Shared\BurgerApp.Shared.csproj", "{D6B4373C-363A-47DF-B23C-6BD9954D0B30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.Shared", "BurgerApp.Shared\BurgerApp.Shared.csproj", "{D6B4373C-363A-47DF-B23C-6BD9954D0B30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApp.ViewModels", "PizzaApp.ViewModels\PizzaApp.ViewModels.csproj", "{FAB1B66E-8287-448A-97C6-79858142F317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurgerApp.ViewModels", "PizzaApp.ViewModels\BurgerApp.ViewModels.csproj", "{FAB1B66E-8287-448A-97C6-79858142F317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

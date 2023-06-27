@@ -10,3 +10,12 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\refint\BurgerApp.Services.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\ref\BurgerApp.Services.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.DataAccess.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Domain.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.ViewModels.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.DataAccess.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.ViewModels.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Domain.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.CopyComplete
