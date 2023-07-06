@@ -2,18 +2,20 @@
 
 <h2>List of orders:</h2>
 <br />
-
-
 <div class="card-container">
     @{
         int orderNumber = 1;
     }
     @foreach (var order in Model)
     {
-        <h3 class="orderNumber">Order number: @orderNumber</h3>
+        <h3 class="orderNumber">Order: @orderNumber</h3>
         <partial name="~/Views/Shared/Partials/OrderPartials/_OrderCardPartial.cshtml" for="@order" />
          orderNumber++; 
     }
 </div>
 <br />
 <a class="btn btn-warning" asp-area="" asp-controller="Home" asp-action="Index">Home page</a>
+<br />
+<br />
+<a class="btn btn-warning" asp-area="" asp-controller="Order" asp-action="Create">Create Order</a>
+

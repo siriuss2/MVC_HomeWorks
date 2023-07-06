@@ -32,6 +32,10 @@ namespace BurgerApp.DataAccess.Migrations
                     b.Property<bool>("HasFries")
                         .HasColumnType("bit");
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsVegan")
                         .HasColumnType("bit");
 
@@ -42,8 +46,8 @@ namespace BurgerApp.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(6, 2)");
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -54,19 +58,21 @@ namespace BurgerApp.DataAccess.Migrations
                         {
                             Id = 1,
                             HasFries = true,
+                            ImageUrl = "",
                             IsVegan = true,
                             IsVegetarian = false,
                             Name = "Chicken Burger",
-                            Price = 3.99m
+                            Price = 3.9900000000000002
                         },
                         new
                         {
                             Id = 2,
                             HasFries = false,
+                            ImageUrl = "",
                             IsVegan = false,
                             IsVegetarian = true,
                             Name = "Beyond Burger",
-                            Price = 4.99m
+                            Price = 4.9900000000000002
                         });
                 });
 

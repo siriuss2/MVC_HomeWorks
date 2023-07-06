@@ -14,6 +14,17 @@ namespace BurgerApp.Services.Implementations
         {
             this._orderRepository = _orderRepository;
         }
+
+        public Task CreateOrder(OrderViewModel orderViewModel)
+        {
+            return _orderRepository.Insert(orderViewModel.ToOrder());
+        }
+
+        public async Task<int> DeleteOrderById(int id)
+        {
+            return await _orderRepository.DeleteById(id);
+        }
+
         public async Task<List<OrderListViewModel>> GetAllOrders()
         {
             List<Order> orderDb = await _orderRepository.GetAll();

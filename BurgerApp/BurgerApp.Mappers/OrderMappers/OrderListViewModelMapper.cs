@@ -15,5 +15,16 @@ namespace BurgerApp.Mappers.OrderMappers
                 IsDelivered = order.IsDelivered
             };
         }
+
+        public static Order ToOrder(this OrderViewModel orderViewModel)
+        {
+            return new Order
+            {
+                Id = orderViewModel.Id,
+                FullName = orderViewModel.FullName,
+                Address = orderViewModel.Address,
+                IsDelivered = orderViewModel.IsDelivered
+            };
+        }
     }
 }

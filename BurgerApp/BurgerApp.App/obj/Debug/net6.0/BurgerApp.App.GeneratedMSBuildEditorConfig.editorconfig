@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.App
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Burger/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Burger/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Burger/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Burger/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Burger/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVyZ2VyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Order/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Dragan/Desktop/MVC_HomeWorks/BurgerApp/BurgerApp.App/Views/Order/Index.cshtml]

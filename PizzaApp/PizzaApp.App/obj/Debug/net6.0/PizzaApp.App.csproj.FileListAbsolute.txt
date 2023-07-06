@@ -72,9 +72,15 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\run
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.DataAccess.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Domain.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Helpers.dll
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Helpers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.dll
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.DataAccess.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Helpers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Domain.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\staticwebassets\msbuild.PizzaApp.App.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\staticwebassets\msbuild.build.PizzaApp.App.props
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PizzaApp.App.props
@@ -91,9 +97,3 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\ref
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\PizzaApp.App.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\PizzaApp.App.genruntimeconfig.cache
 C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\obj\Debug\net6.0\ref\PizzaApp.App.dll
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.dll
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.dll
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.dll
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Services.pdb
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.Mappers.pdb
-C:\Users\Dragan\Desktop\MVC_HomeWorks\PizzaApp\PizzaApp.App\bin\Debug\net6.0\PizzaApp.ViewModels.pdb

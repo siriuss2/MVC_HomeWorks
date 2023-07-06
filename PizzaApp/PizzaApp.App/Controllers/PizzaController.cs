@@ -19,13 +19,5 @@ namespace PizzaApp.App.Controllers
             return View(await _pizzaService.GetPizzasForCards());
         }
 
-        public async Task<IActionResult> DetailsAsync(int id)
-        {
-            if (id == null)
-                throw new Exception("There is no such an id!");
-
-            PizzaDetailsViewModel pizzaDetails = _pizzaService.
-
-        }
     }
 }

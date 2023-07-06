@@ -19,10 +19,6 @@ namespace BurgerApp.DataAccess.DataContext
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Burger>()
-                .Property(x => x.Price)
-                .HasColumnType("decimal(6, 2)");
-
-            modelBuilder.Entity<Burger>()
                 .HasMany(x => x.OrderBurger)
                 .WithOne(x => x.Burger)
                 .HasForeignKey(x => x.BurgerId);
@@ -46,7 +42,7 @@ namespace BurgerApp.DataAccess.DataContext
                     HasFries = true,
                     IsVegan = true,
                     IsVegetarian = false,
-                    Price = 3.99m
+                    Price = 3.99
                 },
                 new Burger
                 {
@@ -55,7 +51,7 @@ namespace BurgerApp.DataAccess.DataContext
                     HasFries = false,
                     IsVegan = false,
                     IsVegetarian = true,
-                    Price = 4.99m
+                    Price = 4.99
                 });
 
             modelBuilder.Entity<Order>()

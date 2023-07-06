@@ -75,12 +75,19 @@ namespace PizzaApp.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("IsOnPromotion")
                         .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -90,26 +97,34 @@ namespace PizzaApp.DataAccess.Migrations
                         new
                         {
                             Id = 1,
+                            ImageUrl = "",
                             IsOnPromotion = false,
-                            Name = "Capriciosa"
+                            Name = "Capriciosa",
+                            Price = 0.0
                         },
                         new
                         {
                             Id = 2,
+                            ImageUrl = "",
                             IsOnPromotion = true,
-                            Name = "Oliva"
+                            Name = "Oliva",
+                            Price = 0.0
                         },
                         new
                         {
                             Id = 3,
+                            ImageUrl = "",
                             IsOnPromotion = true,
-                            Name = "Mexicana"
+                            Name = "Mexicana",
+                            Price = 0.0
                         },
                         new
                         {
                             Id = 4,
+                            ImageUrl = "",
                             IsOnPromotion = false,
-                            Name = "Pepperoni"
+                            Name = "Pepperoni",
+                            Price = 0.0
                         });
                 });
 

@@ -1,11 +1,16 @@
 ﻿@model BurgerListViewModel
 
 <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="" alt="Card image cap">
+    <img class="card-img-top" src="@Model.ImageUrl" alt="Card image cap" height="250px">
     <div class="card-body">
         <h5 class="card-title">@Model.Name</h5>
         <p class="card-text">@Model.Price$</p>
     </div>
     <br />
-    <a type="button" class="btn btn-primary" asp-action="Details" asp-route-identifier="@Model.Id">Details</a>
+    <a type="button" class="btn btn-primary" asp-action="Details" asp-route-id="@Model.Id">Details</a>
+    <br />
+    <a type="button" class="btn btn-warning" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    <br />
+    <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+
 </div>
