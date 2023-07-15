@@ -25,18 +25,14 @@ namespace BurgerApp.App.Controllers
         public IActionResult Create()
         {
             OrderViewModel orderViewModel = new OrderViewModel();
-            
             return View(orderViewModel);
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Create(OrderViewModel orderViewModel)
         {
-
             await _orderService.CreateOrder(orderViewModel);
-            return RedirectToAction("Index");    
-           
+            return RedirectToAction("Index");
         }
     }
 }

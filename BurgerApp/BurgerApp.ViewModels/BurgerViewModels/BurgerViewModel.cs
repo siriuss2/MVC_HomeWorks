@@ -21,7 +21,10 @@ namespace BurgerApp.ViewModels.BurgerViewModels
         [Display(Name = "Is Vegan")]
         public bool IsVegan { get; set; }
 
-        [Display(Name = "Fries")]
+        [Display(Name = "Is On Promotion(-0.80$)")]
+        public bool IsOnPromotion { get; set; }
+
+        [Display(Name = "Fries(+0.30$)")]
         public bool HasFries { get; set; }
     }
 }

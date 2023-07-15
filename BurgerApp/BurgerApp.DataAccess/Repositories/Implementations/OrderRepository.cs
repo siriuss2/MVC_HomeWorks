@@ -28,12 +28,14 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
 
         public async Task<List<Order>> GetAll()
         {
-            return await _dbContext.Orders.ToListAsync();
+            return await _dbContext.Orders
+                .ToListAsync();
         }
 
         public async Task<Order> GetById(int id)
         {
-            return await _dbContext.Orders.SingleOrDefaultAsync(x => x.Id == id);
+            return await _dbContext.Orders
+                .SingleOrDefaultAsync(x => x.Id == id);
 
         }
 

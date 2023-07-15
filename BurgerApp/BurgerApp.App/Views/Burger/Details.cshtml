@@ -1,3 +1,85 @@
 ﻿@model BurgerDetailsViewModel
 
-<h1>@Model.Name</h1>
+<div class="text-center">
+    <h2 class="display-4">Burger Details</h2>
+</div>
+<br />
+
+
+<div class="card">
+    <div class="card-body card-body-details">
+        <img class="card-img-top card-img" src="@Model.ImageUrl" alt="Card image cap">
+        <div class="burger-details">
+            <h5 class="card-title card-title-name">Name: @Model.Name</h5>
+
+            @{
+                double priceWithFriesOnly = Model.Price + 0.30;
+                double priceOnPromotionWithFries = Model.Price - 0.50;
+                double priceOnPromotionOnly = Model.Price - 0.80;
+            }
+
+
+            @if (Model.IsVegetarian)
+            {
+                <h5 class="card-title card-title-name">Is Vegetarian: ✓ </h5>
+            }
+            else
+            {
+                <h5 class="card-title card-title-name">Is Vegetarian: ✗ </h5>
+            }
+
+            @if (Model.IsVegan)
+            {
+                <h5 class="card-title card-title-name">Is Vegan: ✓ </h5>
+            }
+            else
+            {
+                <h5 class="card-title card-title-name">Is Vegan: ✗ </h5>
+            }
+
+            @if (Model.HasFries)
+            {
+                <h5 class="card-title card-title-name">Fries: ✓ </h5>
+            }
+            else
+            {
+                <h5 class="card-title card-title-name">Fries: ✗ </h5>
+            }
+
+            @if (Model.IsOnPromotion)
+            {
+                <h5 class="card-title card-title-name">On Promotion: ✓ </h5>
+            }
+            else
+            {
+                <h5 class="card-title card-title-name">On Promotion: ✗ </h5>
+            }
+            <br />
+            <br />
+
+            @if (Model.HasFries)
+            {
+                if (Model.IsOnPromotion)
+                {
+                    <h5 class="card-title card-title-name">Price: @priceOnPromotionWithFries.ToString("0.00")$ </h5>
+                }
+                else
+                {
+                    <h5 class="card-title card-title-name">Price: @priceWithFriesOnly.ToString("0.00")$ </h5>
+                }
+            }
+            else
+            {
+                if (Model.IsOnPromotion)
+                {
+                    <h5 class="card-title card-title-name">Price: @priceOnPromotionOnly.ToString("0.00")$ </h5>
+                }
+                else
+                {
+                    <h5 class="card-title card-title-name">Price: @Model.Price$ </h5>
+                }
+            }
+        </div>
+    </div>
+</div>
+<br />

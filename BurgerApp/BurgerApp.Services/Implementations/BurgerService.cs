@@ -8,9 +8,9 @@ namespace BurgerApp.Services.Implementations
 {
     public class BurgerService : IBurgerService
     {
-        private IRepository<Burger> _burgerRepository;
+        private IBurgerRepository _burgerRepository;
 
-        public BurgerService(IRepository<Burger> _burgerRepository)
+        public BurgerService(IBurgerRepository _burgerRepository)
         {
             this._burgerRepository = _burgerRepository;
         }
@@ -38,6 +38,7 @@ namespace BurgerApp.Services.Implementations
             burgerDb.HasFries = burgerViewModel.HasFries;
             burgerDb.ImageUrl = burgerViewModel.ImageUrl;
             burgerDb.Price = burgerViewModel.Price;
+            burgerDb.IsOnPromotion = burgerViewModel.IsOnPromotion;
 
             await _burgerRepository.Update(burgerDb);
         }
@@ -58,6 +59,11 @@ namespace BurgerApp.Services.Implementations
             BurgerViewModel burgerViewModel = burger.ToBurgerViewModel();
 
             return burgerViewModel;
+        }
+
+        public string GetBurgerForPromotion()
+        {
+            return _burgerRepository.GetBurgerForPromotion().Name;
         }
 
         public async Task<List<BurgerListViewModel>> GetBurgersForCards()

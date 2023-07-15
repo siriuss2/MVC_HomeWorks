@@ -22,3 +22,26 @@ body {
     gap: 15px;
 }
 
+.card-img{
+    height: 450px;
+    width: 600px;
+}
+
+.burger-details{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: -400px;
+}
+
+.HomeIndexBtns{
+    display: flex;
+    gap: 10px;
+}
+
+.btnHomePage{
+    height: 40px;
+}
+
+.btnCreateBurger {
+    height: 40px;
+}

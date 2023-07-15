@@ -6,10 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.InjectDbContext();
-builder.Services.InjectRepositoriesBurger();
-builder.Services.InjectServicesBurger();
-builder.Services.InjectRepositoriesOrder();
-builder.Services.InjectServicesOrder();
+builder.Services.InjectServices();
+builder.Services.InjectRepositories();
 
 var app = builder.Build();
 

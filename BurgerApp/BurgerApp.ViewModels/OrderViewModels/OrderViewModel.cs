@@ -5,6 +5,7 @@ namespace BurgerApp.ViewModels.OrderViewModels
     public class OrderViewModel
     {
         public int Id { get; set; }
+
         [Display(Name = "Please enter full name")]
         public string FullName { get; set; } = string.Empty;
 

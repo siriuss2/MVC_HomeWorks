@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BurgerApp.DataAccess.Repositories.Implementations
 {
-    public class BurgerRepository : IRepository<Burger>
+    public class BurgerRepository : IBurgerRepository
     {
         private BurgerAppDbContext _dbContext;
 
@@ -28,6 +28,11 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         public async Task<List<Burger>> GetAll()
         {
             return await _dbContext.Burgers.ToListAsync();
+        }
+
+        public Burger GetBurgerForPromotion()
+        {
+            return _dbContext.Burgers.FirstOrDefault(x => x.IsOnPromotion == true);
         }
 
         public async Task<Burger> GetById(int id)

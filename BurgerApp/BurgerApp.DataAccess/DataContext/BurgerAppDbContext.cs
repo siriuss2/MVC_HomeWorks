@@ -42,6 +42,7 @@ namespace BurgerApp.DataAccess.DataContext
                     HasFries = true,
                     IsVegan = true,
                     IsVegetarian = false,
+                    IsOnPromotion = true,
                     Price = 3.99
                 },
                 new Burger
@@ -51,6 +52,7 @@ namespace BurgerApp.DataAccess.DataContext
                     HasFries = false,
                     IsVegan = false,
                     IsVegetarian = true,
+                    IsOnPromotion = false,
                     Price = 4.99
                 });
 

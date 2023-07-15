@@ -7,7 +7,7 @@ namespace BurgerApp.Mappers.OrderMappers
     {
         public static OrderListViewModel ToOrderListViewModel(this Order order)
         {
-            return new OrderListViewModel()
+            return new OrderListViewModel
             {
                 Id = order.Id,
                 FullName = order.FullName,
@@ -15,7 +15,6 @@ namespace BurgerApp.Mappers.OrderMappers
                 IsDelivered = order.IsDelivered
             };
         }
-
         public static Order ToOrder(this OrderViewModel orderViewModel)
         {
             return new Order

@@ -36,6 +36,9 @@ namespace BurgerApp.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsOnPromotion")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsVegan")
                         .HasColumnType("bit");
 
@@ -59,6 +62,7 @@ namespace BurgerApp.DataAccess.Migrations
                             Id = 1,
                             HasFries = true,
                             ImageUrl = "",
+                            IsOnPromotion = true,
                             IsVegan = true,
                             IsVegetarian = false,
                             Name = "Chicken Burger",
@@ -69,6 +73,7 @@ namespace BurgerApp.DataAccess.Migrations
                             Id = 2,
                             HasFries = false,
                             ImageUrl = "",
+                            IsOnPromotion = false,
                             IsVegan = false,
                             IsVegetarian = true,
                             Name = "Beyond Burger",

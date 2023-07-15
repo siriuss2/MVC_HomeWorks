@@ -1,8 +1,3 @@
-C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.AssemblyReference.cache
-C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.AssemblyInfoInputs.cache
-C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.AssemblyInfo.cs
-C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.CoreCompileInputs.cache
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Services.deps.json
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Services.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Services.pdb
@@ -14,6 +9,11 @@ C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Mappers.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.ViewModels.pdb
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\bin\Debug\net6.0\BurgerApp.Domain.pdb
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.AssemblyReference.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.AssemblyInfoInputs.cache
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.AssemblyInfo.cs
+C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.CoreCompileInputs.cache
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.csproj.CopyComplete
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\BurgerApp.Services.dll
 C:\Users\Dragan\Desktop\MVC_HomeWorks\BurgerApp\BurgerApp.Services\obj\Debug\net6.0\refint\BurgerApp.Services.dll

@@ -12,7 +12,9 @@ namespace BurgerApp.Mappers.BurgerMappers
                 Id = burger.Id,
                 Name = burger.Name,
                 Price = burger.Price,
-                ImageUrl = burger.ImageUrl
+                ImageUrl = burger.ImageUrl,
+                HasFries = burger.HasFries,
+                IsOnPromotion = burger.IsOnPromotion
             };
         }
 
@@ -25,7 +27,8 @@ namespace BurgerApp.Mappers.BurgerMappers
                 IsVegetarian = burger.IsVegetarian,
                 Name = burger.Name,
                 Price = burger.Price,
-                ImageUrl = burger.ImageUrl
+                ImageUrl = burger.ImageUrl,
+                IsOnPromotion = burger.IsOnPromotion
             };
         }
 
@@ -39,7 +42,8 @@ namespace BurgerApp.Mappers.BurgerMappers
                 ImageUrl = burgerViewModel.ImageUrl,
                 HasFries = burgerViewModel.HasFries,
                 IsVegan = burgerViewModel.IsVegan,
-                IsVegetarian = burgerViewModel.IsVegetarian
+                IsVegetarian = burgerViewModel.IsVegetarian,
+                IsOnPromotion = burgerViewModel.IsOnPromotion
             };
         }
 
@@ -53,7 +57,8 @@ namespace BurgerApp.Mappers.BurgerMappers
                 ImageUrl = burger.ImageUrl,
                 HasFries = burger.HasFries,
                 IsVegan = burger.IsVegan,
-                IsVegetarian = burger.IsVegetarian
+                IsVegetarian = burger.IsVegetarian,
+                IsOnPromotion = burger.IsOnPromotion
             };
         }
     }
