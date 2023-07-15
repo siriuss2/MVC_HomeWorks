@@ -21,12 +21,14 @@ namespace BurgerApp.Helpers
         {
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IBurgerService, BurgerService>();
+            services.AddTransient<ILocationService, LocationService>();
         }
 
         public static void InjectRepositories(this IServiceCollection services)
         {
             services.AddTransient<IBurgerRepository, BurgerRepository>();
             services.AddTransient<IRepository<Order>, OrderRepository>();
+            services.AddTransient<IRepository<Location>, LocationRepository>();
         }
 
     }

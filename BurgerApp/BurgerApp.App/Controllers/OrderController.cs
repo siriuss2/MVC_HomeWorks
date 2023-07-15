@@ -7,10 +7,13 @@ namespace BurgerApp.App.Controllers
     public class OrderController : Controller
     {
         private IOrderService _orderService;
+        private ILocationService _locationService;
 
-        public OrderController(IOrderService _orderService)
+        public OrderController(IOrderService _orderService, ILocationService _locationService)
         {
             this._orderService = _orderService;
+            this._locationService = _locationService;
+
         }
         public async Task<IActionResult> Index()
         {
@@ -22,9 +25,11 @@ namespace BurgerApp.App.Controllers
             return View(await _orderService.DeleteOrderById(id));
         }
 
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
             OrderViewModel orderViewModel = new OrderViewModel();
+            ViewBag.Locations = await _locationService.GetLocationsForDropdown();
+
             return View(orderViewModel);
         }
 

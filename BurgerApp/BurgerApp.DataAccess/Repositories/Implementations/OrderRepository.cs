@@ -29,6 +29,7 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         public async Task<List<Order>> GetAll()
         {
             return await _dbContext.Orders
+                .Include(x => x.Location)
                 .ToListAsync();
         }
 
@@ -42,8 +43,7 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         public async Task Insert(Order entity)
         {
             await _dbContext.Orders.AddAsync(entity);
-            _dbContext.SaveChangesAsync();
-
+            await _dbContext.SaveChangesAsync();
         }
 
         public async Task Update(Order entity)

@@ -13,5 +13,14 @@ namespace BurgerApp.Mappers.LocationMappers
                 Address = location.Address
             };
         }
+
+        public static LocationsForDropdownViewModel ToLocationsForDropdown(this Location location)
+        {
+            return new LocationsForDropdownViewModel
+            {
+                Id = location.Id,
+                Name = location.Name
+            };
+        }
     }
 }
