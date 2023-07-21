@@ -61,5 +61,14 @@ namespace BurgerApp.Mappers.BurgerMappers
                 IsOnPromotion = burger.IsOnPromotion
             };
         }
+
+        public static BurgersForDropdownViewModel ToBurgersForDropDown(this Burger burger)
+        {
+            return new BurgersForDropdownViewModel
+            {
+                Id = burger.Id,
+                Name = burger.Name
+            };
+        }
     }
 }

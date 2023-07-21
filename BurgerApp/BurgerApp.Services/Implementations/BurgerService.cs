@@ -71,5 +71,11 @@ namespace BurgerApp.Services.Implementations
             List<Burger> burgerDb = await _burgerRepository.GetAll();
             return burgerDb.Select(x => x.ToBurgerListViewModel()).ToList();
         }
+
+        public async Task<List<BurgersForDropdownViewModel>> GetBurgersForDropdown()
+        {
+            List<Burger> burgerDb = await _burgerRepository.GetAll();
+            return burgerDb.Select(x => x.ToBurgersForDropDown()).ToList();
+        }
     }
 }

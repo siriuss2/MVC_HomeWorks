@@ -2,21 +2,10 @@
 {
     public class Location : BaseEntity
     {
-        public Location(string name , string address , string opensAt , string closesAt)
-        {
-            Name = name;
-            Address = address;
-            OpensAt = opensAt;
-            ClosesAt = closesAt;
-        }
-        public Location()
-        {
-            
-        }
         public string Name { get; set; } = string.Empty;
         public string Address { get; set; } = string.Empty;
-        public string OpensAt { get; set; } 
-        public string ClosesAt { get; set; }
-        public List<Order> Orders { get; set; }
+        public string OpensAt { get; set; } = string.Empty;
+        public string ClosesAt { get; set; } = string.Empty;
+        public List<Order> Orders { get; set; } = new List<Order>();
     }
 }

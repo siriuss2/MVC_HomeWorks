@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IritI12m0YwGwuFYN9z1BLVcvP+2tJXGj0Fve3y0tjBIJrW0AsincaYJP+eqbJWKSyddpBx7YbkpyL9Z7wmd5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dragan\\Desktop\\MVC_HomeWorks\\LibraryApp\\LibraryApp.Helpers\\LibraryApp.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dragan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

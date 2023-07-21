@@ -17,7 +17,7 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         {
             Order orderDb = await _dbContext.Orders.SingleOrDefaultAsync(x => x.Id == id);
 
-            if(orderDb == null)
+            if (orderDb == null)
                 throw new Exception($"Item with Id:{id} not found!");
 
             _dbContext.Orders.Remove(orderDb);
@@ -30,6 +30,8 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         {
             return await _dbContext.Orders
                 .Include(x => x.Location)
+                .Include(x => x.OrderBurger)
+                .ThenInclude(x => x.Burger)
                 .ToListAsync();
         }
 
@@ -37,7 +39,6 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
         {
             return await _dbContext.Orders
                 .SingleOrDefaultAsync(x => x.Id == id);
-
         }
 
         public async Task Insert(Order entity)

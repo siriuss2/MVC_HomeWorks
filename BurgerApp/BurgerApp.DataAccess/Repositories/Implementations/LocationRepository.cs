@@ -23,7 +23,6 @@ namespace BurgerApp.DataAccess.Repositories.Implementations
             _dbContext.SaveChangesAsync();
 
             return locationDb.Id;
-
         }
 
         public async Task<List<Location>> GetAll()

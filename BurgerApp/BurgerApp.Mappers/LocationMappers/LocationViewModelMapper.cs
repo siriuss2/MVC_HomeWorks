@@ -5,12 +5,27 @@ namespace BurgerApp.Mappers.LocationMappers
 {
     public static class LocationViewModelMapper
     {
-        public static LocationViewModel ToLocationViewModel(this Location location)
+        public static LocationListViewModel ToLocationListViewModel(this Location location)
         {
-            return new LocationViewModel
+            return new LocationListViewModel
             {
+                Id = location.Id,
+                Address = location.Address,
+                ClosesAt = location.ClosesAt,
                 Name = location.Name,
-                Address = location.Address
+                OpensAt = location.OpensAt
+            };
+        }
+
+        public static Location ToLocation(this LocationViewModel locationViewModel)
+        {
+            return new Location
+            {
+                Id = locationViewModel.Id,
+                Address = locationViewModel.Address,
+                ClosesAt = locationViewModel.ClosesAt,
+                Name = locationViewModel.Name,
+                OpensAt = locationViewModel.OpensAt
             };
         }
 

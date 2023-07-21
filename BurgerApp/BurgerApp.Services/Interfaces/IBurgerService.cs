@@ -11,5 +11,6 @@ namespace BurgerApp.Services.Interfaces
         Task<BurgerViewModel> GetBurgerForEditing(int id);
         Task EditBurger(BurgerViewModel burgerViewModel);
         string GetBurgerForPromotion();
+        Task<List<BurgersForDropdownViewModel>> GetBurgersForDropdown();
     }
 }

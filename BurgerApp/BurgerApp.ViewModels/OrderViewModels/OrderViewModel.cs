@@ -1,4 +1,4 @@
-﻿using BurgerApp.ViewModels.LocationViewModels;
+﻿using BurgerApp.ViewModels.BurgerViewModels;
 using System.ComponentModel.DataAnnotations;
 
 namespace BurgerApp.ViewModels.OrderViewModels
@@ -18,6 +18,9 @@ namespace BurgerApp.ViewModels.OrderViewModels
 
         [Display(Name = "Select location")]
         public int LocationId { get; set; }
+
+        [Display(Name = "Select burgers")]
+        public List<int> BurgerId { get; set; }
 
     }
 }
