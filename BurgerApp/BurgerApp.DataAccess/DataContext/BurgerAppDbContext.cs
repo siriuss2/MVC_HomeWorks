@@ -32,67 +32,6 @@ namespace BurgerApp.DataAccess.DataContext
                 .HasMany(x => x.Orders)
                 .WithOne(x => x.Location)
                 .HasForeignKey(x => x.LocationId);
-
-            modelBuilder.Entity<Burger>()
-                .HasData(
-                new Burger
-                {
-                    Id = 1,
-                    Name = "Chicken Burger",
-                    HasFries = true,
-                    IsVegan = true,
-                    IsVegetarian = false,
-                    IsOnPromotion = true,
-                    Price = 3.99
-                },
-                new Burger
-                {
-                    Id = 2,
-                    Name = "Beyond Burger",
-                    HasFries = false,
-                    IsVegan = false,
-                    IsVegetarian = true,
-                    IsOnPromotion = false,
-                    Price = 4.99
-                });
-
-            modelBuilder.Entity<Order>()
-                .HasData(
-                new Order
-                {
-                    Id = 1,
-                    IsDelivered = true,
-                    FullName = "John Doe",
-                    Address = "Partizanska 10",
-                    LocationId = 2,
-                },
-                new Order
-                {
-                    Id = 2,
-                    IsDelivered = false,
-                    FullName = "Kate Katesky",
-                    Address = "Mladinska 1",
-                    LocationId = 1,
-                });
-
-            modelBuilder.Entity<Location>()
-                .HasData(
-                new Location
-                {
-                    Id = 1,
-                    Name = "Pizza Pizza",
-                    OpensAt = "10:00",
-                    ClosesAt = "23:00",
-                    Address = "Opstina Centar"
-                },
-                new Location
-                {
-                    Id = 2,
-                    Name = "Pizza Skopje",
-                    OpensAt = "09:00",
-                    ClosesAt = "22:00",
-                    Address = "Opstina Kisela Voda"
-                });
         }
     }
 }
